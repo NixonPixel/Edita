@@ -1,0 +1,50 @@
+.showroom__content{
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	right: 20%;
+	left: 20%;
+	padding-top: 68px;
+	
+	@include tablet{
+		width: 100%;
+		left: unset;
+		right: unset;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+.showroom__img{
+	width: 100%;
+	height: 345px;
+}
+.showroom__heading{
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 29.96px;
+	text-transform: uppercase;
+	letter-spacing: 0.84px;
+	margin-bottom: 23px;
+	
+	@include tablet{
+		font-size: 18px;
+	}
+}
+.showroom__text{
+	margin-bottom: 33px;
+}
+.showroom__visit-our{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24.97px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	margin-bottom: 23px;
+}
+.shoowroom__btn{
+	border-color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	max-width: 196px;
+	margin: 0 auto;
+}

@@ -1,0 +1,11 @@
+.recommended-products__title{
+	top: -40px;
+	margin-bottom: 20px;
+	
+	@include mobile{
+		top: 0;
+	}
+}
+.recommended-products{
+	margin-bottom: 66px;
+}

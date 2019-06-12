@@ -1,0 +1,23 @@
+.footer-nav{
+	display: flex;
+	list-style: none;
+	flex-grow: 1;
+	justify-content: space-between;
+	padding-left: 10%;
+	
+	@include tablet{
+		display: none;
+	}
+}
+
+.footer-nav__link{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1.82px;
+	color: inherit;
+	&:hover{
+		color: inherit;
+	}
+}

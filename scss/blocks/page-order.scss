@@ -1,0 +1,28 @@
+.page-order{
+	.header{
+		max-height: 385px;
+	}
+	.showroom-service{
+			margin-bottom: 0;
+	}
+	.btn-gray{
+		height: 56px;
+		padding-top: 14px;
+	}
+	.btn-order{
+		height: 56px;
+		right: 3px;
+		position: relative;
+		padding-top: 14px;
+	}
+	.header__bottom{
+		padding-top: 0;
+		top: -7px;
+		@include tablet{
+			padding-top: 20px;
+		}
+	}
+	.goods-nav__sublist{
+		top: 50px;
+	}
+}

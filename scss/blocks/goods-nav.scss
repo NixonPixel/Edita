@@ -1,0 +1,130 @@
+.goods-nav{
+	width: 27.3%;
+	margin-left: 23%;
+	position: relative;
+	display: flex;
+	@include tablet{
+		margin-left: 0;
+		width: 50%;
+		margin-right: 3%;
+		max-width: 350px;
+	}
+	@include mobile{
+		width: 100%;
+		max-width: 100%;
+		margin-right: 0;
+	}
+}
+.goods-nav__list{
+	display: flex;
+	list-style: none;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 15px;
+	
+	@include mobile{
+		justify-content: center;
+	}
+}
+.goods-nav__link{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1.82px;
+	color: #000000;
+	
+	&:hover{
+		color: inherit;
+	}
+
+}
+.goods-nav__sublist-tabs{
+	list-style: none;
+	box-shadow: inset 0px 3px 3px #dedede;
+	width: 20%;
+	padding-top: 48px;
+	padding-left: 3%;
+	
+	@include tablet{
+		width: 50%;
+	}
+}
+.goods-nav__sublist{
+	position: absolute;
+	display: flex;
+	width: 100%;
+	top: 50px;
+	display: none;
+	justify-content: space-between;
+	background: #FFF;
+	z-index: 1000;	
+	min-height: 490px;
+	
+	@include tablet{
+		margin-top: 11px;
+		width: 90%;
+		left: 0;
+		top: 80px;
+	}
+}
+.goods-nav__sublist--active{
+	display: flex;
+}
+.goods-nav__sublist-tab-link{
+	position: relative;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    
+    &:hover{
+    	color: #000;
+    }
+}
+
+.goods-nav__sublist-inner-item{
+	margin-bottom: 17px;
+	& a{
+	    font-size: 15px;
+	    line-height: 1.2em;
+	    color: #000;
+	}
+}
+.goods-nav__sublist-images{
+	display: flex;
+	
+	@include tablet{
+		display: none;
+	}
+}
+
+.goods-nav__sublist-inner{
+	opacity: 0;
+	position: absolute;
+	left: 20%;
+	background-color: #F8F8F8;
+	width: 25%;
+	padding-left: 3%;
+	height: 100%;
+	padding-top: 44px;
+	z-index: 50;
+
+	@include tablet{
+		width: 50%;
+		left: 50%;
+	}
+}
+.goods-nav__sublist-inner--active{
+	opacity: 1;
+	transition: 1s;
+}
+.goods-nav__item{
+	@include mobile{
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+}

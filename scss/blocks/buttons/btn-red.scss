@@ -1,0 +1,14 @@
+.btn-red{
+	background-image: linear-gradient(to top, #c2242d 0%, #cd2f38 50%, #c2242d 100%);
+	background-color: #c2242d;
+	max-width: 157px;
+	color: #FFF;
+	&:hover{
+		color: #fff;
+	}
+
+	@include mobile{
+		max-width: 100%;
+		width: 48%;
+	}
+}

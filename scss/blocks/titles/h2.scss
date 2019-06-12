@@ -1,0 +1,32 @@
+.h2{
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	position: relative;
+	width: auto;
+	justify-content: center;
+	display: flex;
+	align-items: baseline;
+	&::before{
+		content: "";
+		display: block;
+		width: 3px;
+		height: 23px;
+		margin-right: 19px;
+		background-color: #e9c04a;
+	}
+	&::after{
+		content: "";
+		display: block;
+		width: 3px;
+		height: 23px;
+		margin-left: 19px;
+		background-color: #e9c04a;
+	}
+
+	@include tablet{
+		font-size: 22px;
+	}
+}

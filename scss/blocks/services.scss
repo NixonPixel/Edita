@@ -1,0 +1,37 @@
+.service__content{
+	position: absolute;
+	text-align: center;
+	left: 18%;
+	right: 18%;
+	padding-top: 73px;
+	
+	& img{
+		margin-bottom: 25px;
+	}
+
+	@include tablet{
+		left: unset;
+		right: unset;
+		width: 100%;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+.service__heading{
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 29.96px;
+	text-transform: uppercase;
+	letter-spacing: 0.84px;
+	margin-bottom: 30px;
+	@include tablet{
+		font-size: 18px;
+	}
+}
+.service__text{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24.97px;
+	letter-spacing: 0.24px;
+	text-align: center;
+}

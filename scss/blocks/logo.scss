@@ -1,0 +1,22 @@
+.logo{
+	width: 26%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	height: 113px;
+	position: relative;
+	padding-top: 23px;
+	padding-bottom: 21px;
+	justify-content: space-between; 
+	background-color: #ffffff;
+	position: relative;
+    z-index: 30;
+    top: -7px;
+	& span{
+		font-size: 11px;
+		line-height: 10.94px;
+		text-transform: uppercase;
+		letter-spacing: 2.61px;
+		color: #848484;
+	}
+}

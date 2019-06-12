@@ -1,0 +1,34 @@
+.side-bar__item {
+	background: #324a74;
+	height: 50px;
+	margin-top: 2px;
+	padding-left: 15px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	padding-right: 25px;
+
+}
+.side-bar__item--hover{
+	left: -133px;
+	position: relative;
+}
+.side-bar__item{
+	& a {
+		padding-left: 15px;
+		color: #fff;
+		font-size: 	14px;	
+	}
+}
+.side-bar__list{
+	position: fixed;
+	z-index: 100;
+	top: 50px;
+	right: -145px;	
+	list-style: none;
+	
+	@include tablet{
+		display: none;
+	}
+}

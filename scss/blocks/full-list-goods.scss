@@ -1,0 +1,27 @@
+.full-list-goods{
+	display: flex;
+	width: 74%;
+	justify-content: space-between;
+	padding-right: 11.3%;
+	padding-bottom: 24px;
+	
+	@include tablet{
+		width: 100%;
+		padding-top: 30px;
+		padding-right: 0;
+	}
+	@include mobile{
+		display: none;
+	}
+}
+.full-list-goods__sublist{
+	list-style: none;
+	padding-left: 6px;
+}
+.full-list-goods__sublist-item a{
+	font-weight: 300;
+	color: #848484;
+	font-size: 13px;
+	letter-spacing: 0.65px;
+	line-height: 13px;
+}

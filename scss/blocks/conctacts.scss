@@ -1,0 +1,26 @@
+.contacts{
+	display: flex;
+	flex-direction: column;
+	width: 15.8%;
+	padding-right: 20px;
+	padding-left: 20px;
+	
+	@include tablet{
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	@include mobile{
+		width: 100%;
+	}
+}
+.contacts__tel-number{
+	font-size: 15px;
+	color: inherit;
+	line-height: 21px;
+	padding-bottom: 14px;
+	letter-spacing: 0.15px;
+}
+.contacts__address{
+	padding-top: 16px;
+}

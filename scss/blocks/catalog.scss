@@ -1,0 +1,18 @@
+.catalog__item{
+	position: relative;
+	max-width: 270px;
+}
+.catalog__item-cost{
+	font-family: Rouble;
+}
+.catalog__item-description{
+	position: absolute;
+    bottom: 16px;
+    left: 17px;
+    right: 17px;
+    background: #f9f8f9;
+    text-align: center;
+    padding: 26px 38px;
+    z-index: 2;
+}
+  

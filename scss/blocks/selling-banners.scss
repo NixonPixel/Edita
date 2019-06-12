@@ -1,0 +1,109 @@
+.selling-banners{
+    background-color: #F8F8F8;
+    padding-bottom: 38px;
+    padding-top: 30px;
+}
+.selling-banners__top{
+    display: flex;
+    justify-content: space-between;
+    max-height: 611px;
+    
+    @include tablet{
+        flex-direction: column;
+        max-height: 100%;
+    }
+}
+.selling-banners__item{
+    position: relative;
+    background-color: #e8e8e8;
+    
+    @include tablet{
+        width: 48%;
+        img{
+            width: 100%;
+        }
+        margin-bottom: 15px;
+    }
+    @include mobile{
+        width: 100%;
+    }
+}
+.selling-banners__left-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    @include tablet{
+        flex-direction: row;
+    }
+    @include mobile{
+        flex-direction: column;
+    }
+}
+.selling-banners__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    
+    & a:hover p{
+        text-decoration: underline;
+        color: #000000;
+    }
+
+    @include tablet{
+        flex-direction: column;
+        margin-top: 0;
+        .selling-banners__item{
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+    }
+}
+.selling-banners__item--wide{
+    width: 65.8%;
+    display: flex;
+    justify-content: flex-end;
+    
+    @include tablet{
+        width: 100%;
+        height: 100%;
+    }
+}
+.selling-banners__item-content{
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: auto;
+    left: 33px;
+    height: auto;
+    background: #FFF;
+    bottom: 33px;
+}
+.selling-banners__item-content--even{
+    top: 33px;
+    bottom: unset;
+}
+.selling-banners__item-name{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28.06px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    color: #000000;
+}
+.selling-banners__item-link{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: underline;
+    letter-spacing: 2.16px;
+    color: #000000;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 15px;
+    &:hover{
+        color: inherit;
+    }
+}

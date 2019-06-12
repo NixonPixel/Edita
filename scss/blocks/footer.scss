@@ -1,0 +1,53 @@
+.footer{
+	background: #f8f8f8;
+	
+	@include tablet{
+		margin-top: 55px;
+	}
+}
+.footer__logo{
+	width: 16%;
+	background: #f8f8f8;
+	margin-top: 10px;
+	@include tablet{
+		margin: 0 auto;
+		margin-top: 35px;
+		width: 35%;
+		margin-top: 0;
+	}
+}
+.footer__map{
+	background-image: url(../../img/map.jpg);
+	background-position: center;
+	width: 100%;
+	min-height: 147px;
+	padding-top: 54px;
+}
+.footer__top__map__path{
+	width: 180px;
+	display: block;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 8px;
+	color: inherit;
+	background-color: #ffffff;
+	
+	&:hover{
+		color: inherit;
+	}
+}
+.footer__top{
+	display: flex;
+	align-items: center;
+}
+.footer__bottom{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 43px;
+	
+	@include tablet{
+		flex-direction: column;
+		margin-bottom: 30px;
+	}
+}

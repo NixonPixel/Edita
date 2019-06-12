@@ -1,0 +1,11 @@
+.wrapper{
+	max-width: 1170px;
+	margin: 0 auto;
+	@include tablet{
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 750px;
+		margin: 0 auto;
+	}
+
+}

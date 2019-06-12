@@ -1,0 +1,15 @@
+.header__top{
+	background-image: linear-gradient(to right, #172238 0%, #395585 50%, #172238 100%);
+	background-color: #303066;
+	padding-top: 23px;
+	height: 80px;
+	& .wrapper{
+		display: flex;
+		max-width: 1170px;
+	}
+
+	@include tablet{
+		background: #FFF;
+		padding-top: 0;
+	}
+}

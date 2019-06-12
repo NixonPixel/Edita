@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Эдита пошив на заказ</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	
+	<meta name="theme-color" content="#000">
+
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+<body class="page-order">
+	
+	<header class="header">
+		<div class="header__top">
+			<div class="wrapper">
+				<a href="index.html" class="header__top-logo logo">
+					<img src="img/logo.svg" alt="">
+					<span>меховая фабрика</span>
+				</a>
+				<div class="header__togle-btn toggle-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<nav class="header__main-nav main-nav">
+					<ul class="main-nav__list">
+						<li class="main-nav__item">
+							<img class="main-nav__item-icon" src="img/delivery.svg" alt="">
+							<a href="" class="main-nav__link">
+								Условия доставки
+							</a>
+						</li>
+						<li class="main-nav__item">
+							<img src="img/pay.svg" alt="" class="main-nav__item-icon">
+							<a href="" class="main-nav__link">
+								Условия оплаты
+							</a>
+						</li>
+						<li class="main-nav__item">
+							<img src="img/review.svg" alt="" class="main-nav__item-icon">
+							<a href="" class="main-nav__link">
+								Отзывы клиентов
+							</a>
+						</li>
+						<li class="main-nav__item">
+							<img src="img/faq.svg" alt="" class="main-nav__item-icon">
+							<a href="" class="main-nav__link">
+								Вопрос-ответ
+							</a>
+						</li>
+						<li class="main-nav__item">
+							<img src="img/email.svg" alt="" class="main-nav__item-icon">
+							<a href="" class="main-nav__link">
+								Контакты
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="header__bottom wrapper">
+			<nav class="header__bottom-goods-nav goods-nav">
+				<ul class="goods-nav__list">
+					<li class="goods-nav__item">
+						<a href="" class="goods-nav__link" data-tabs="0">
+							Женщинам
+						</a>	
+					</li>
+					<li class="goods-nav__item">
+						<a href="" class="goods-nav__link" data-tabs="1">
+							Мужчинам
+						</a>
+					</li>
+					<li class="goods-nav__item">
+						<a href="" class="goods-nav__link" data-tabs="2">
+							Детям
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="goods-nav__sublist">
+					<ul class="goods-nav__sublist-tabs">
+						<li class="goods-nav__sublist-tab" data-tabs="0">
+							<a href="" class="goods-nav__sublist-tab-link">
+								Шубы
+							</a>
+						</li>
+						<li class="goods-nav__sublist-tab" data-tabs="1">
+							<a href="" class="goods-nav__sublist-tab-link">
+								Дубленки
+							</a>
+						</li>
+						<li class="goods-nav__sublist-tab" data-tabs="2">
+							<a href="" class="goods-nav__sublist-tab-link">
+								Меховые жилеты
+							</a>
+						</li>
+						<li class="goods-nav__sublist-tab" data-tabs="3">
+							<a href="" class="goods-nav__sublist-tab-link">
+								Изделия из кожи
+							</a>
+						</li>
+						<li class="goods-nav__sublist-tab" data-tabs="4">
+							<a href="" class="goods-nav__sublist-tab-link">
+								Скидка
+							</a>
+						</li>
+					</ul>
+					<div class="goods-nav__sublist-inner goods-nav__sublist-inner--active">
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из норки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Цветные шубы</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из мутона</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из чернобурки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из астрагана</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Соболя</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из песца</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из нутрии</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Каракуля</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Комбинированные</a>
+						</div>
+					</div>
+					<div class="goods-nav__sublist-inner">
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из норки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Цветные шубы</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из мутона</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из чернобурки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из астрагана</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Соболя</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из песца</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из нутрии</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Каракуля</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Комбинированные</a>
+						</div>
+					</div>
+					<div class="goods-nav__sublist-inner">
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из норки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Цветные шубы</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из мутона</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из чернобурки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из астрагана</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Соболя</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из песца</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из нутрии</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Каракуля</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Комбинированные</a>
+						</div>
+					</div>
+					<div class="goods-nav__sublist-inner">
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из норки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Цветные шубы</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из мутона</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из чернобурки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из астрагана</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Соболя</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из песца</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из нутрии</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Каракуля</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Комбинированные</a>
+						</div>
+					</div>
+					<div class="goods-nav__sublist-inner">
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из норки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Цветные шубы</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из мутона</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из чернобурки</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из астрагана</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Соболя</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из песца</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из нутрии</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Шубы из Каракуля</a>
+						</div>
+						<div class="goods-nav__sublist-inner-item">
+							<a href="#">Комбинированные</a>
+						</div>
+					</div>
+					<div class="goods-nav__sublist-images">
+						<div class="goods-nav__sublist-images-item catalog__item">
+							<img class="catalog__item-img" src="img/catalog-img1.jpg" alt="" width="235" height="565">
+							<div class="goods-nav__sublist-images-item-description catalog__item-description">
+								<p class="catalog__item-type">
+									Шубы
+								</p>
+								<p class="catalog__item-text">
+									Полушубок из норки с капюшоном розовый на молнии без карманов
+								</p>
+								<span class="catalog__item-serial-number">
+									Арт. 00001234
+								</span>
+								<div class="catalog__item-cost">
+									22 000a
+								</div>
+							</div>
+						</div>
+						<div class="goods-nav__sublist-images-item catalog__item">
+							<img class="catalog__item-img" src="img/catalog-img1.jpg" alt="" width="235" height="565">
+							<div class="goods-nav__sublist-images-item-description catalog__item-description">
+								<p class="catalog__item-type">
+									Шубы
+								</p>
+								<p class="catalog__item-text">
+									Полушубок из норки с капюшоном розовый на молнии без карманов
+								</p>
+								<span class="catalog__item-serial-number">
+									Арт. 00001234
+								</span>
+								<div class="catalog__item-cost">
+									22 000a
+								</div>
+							</div>
+						</div>
+						<div class="goods-nav__sublist-images-item catalog__item">
+							<img class="catalog__item-img" src="img/catalog-img1.jpg" alt="" width="235" height="565">
+							<div class="goods-nav__sublist-images-item-description catalog__item-description">
+								<p class="catalog__item-type">
+									Шубы
+								</p>
+								<p class="catalog__item-text">
+									Полушубок из норки с капюшоном розовый на молнии без карманов
+								</p>
+								<span class="catalog__item-serial-number">
+									Арт. 00001234
+								</span>
+								<div class="catalog__item-cost">
+									22 000a
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="header__bottom-btns">
+				<a href="#" class="btn-gray btn">
+					Бесплатная консультация модельера
+				</a>
+				<a href="#" class="btn-order btn-red btn">
+					Закажите шубу по вашим меркам
+				</a>
+			</div>
+			<a href="tel:+79283471718" class="header__bottm-tel-num tel-num">
+				+7 928 347 17 18
+			</a>
+		</div>
+		<div class="header__page-intro page-intro">
+			<h1 class="page-intro__title">
+				Шуба на заказ
+			</h1>
+		</div>	
+	</header>
+	<main class="main">
+		<section class="measurements wrapper">
+			<div class="measurements__header">
+				<h2 class="measurements__title">
+					Снятие мерок
+				</h2>
+				<p class="measurements__header-text">
+					Для более точной оценки сроков пошива и стоимости изделия на заказ,
+					предлагаем вам заполнить следующие данные:
+				</p>
+			</div>
+			<ul class="measurements__list">
+				<li class="measurements__item">	
+					<img src="img/dummy1.png" alt="">
+					<div class="measurements__item-input-container">
+						<p class="measurements__type">
+							Высота груди
+						</p>
+						<input type="text" class="measurements__input" required>
+						<span>см</span>
+					</div>
+				</li>
+				<li class="measurements__item">
+					<img src="img/dummy2.png" alt="">
+					<div class="measurements__item-input-container">
+						<p class="measurements__type">
+							Высота до талии спереди
+						</p>
+						<input type="text" class="measurements__input" required>
+						<span>см</span>
+					</div>
+				</li>
+				<li class="measurements__item">	
+					<img src="img/dummy3.png" alt="">
+					<div class="measurements__item-input-container">
+						<p class="measurements__type">
+							Ширина спины
+						</p>
+						<input type="text" class="measurements__input" required>
+						<span>см</span>
+					</div>
+				</li>
+				<li class="measurements__item">
+					<img src="img/dummy4.png" alt="">
+					<div class="measurements__item-input-container">
+						<p class="measurements__type">
+							Ширина плеча
+						</p>
+						<input type="text" class="measurements__input" required>
+						<span>см</span>
+					</div>
+				</li>
+				<li class="measurements__item">
+					<img src="img/dummy5.png" alt="">
+					<div class="measurements__item-input-container">
+						<p class="measurements__type">
+							Обхват груди
+						</p>
+						<input type="text" class="measurements__input" required>
+						<span>см</span>
+					</div>
+				</li>
+				<li class="measurements__item">
+					<img src="img/dummy6.png" alt="">
+					<div class="measurements__item-input-container">
+						<p class="measurements__type">
+							Обхват бедер
+						</p>
+						<input type="text" class="measurements__input" required>
+						<span>см</span>
+					</div>
+				</li>
+				<li class="measurements__item">
+					<img src="img/dummy7.png" alt="">
+					<div class="measurements__item-input-container">
+						<p class="measurements__type">
+							Длина спины до талии
+						</p>
+						<input type="text" class="measurements__input" required>
+						<span>см</span>
+					</div>
+				</li>
+				<li class="measurements__item">
+					<img src="img/dummy8.png" alt="">
+					<div class="measurements__item-input-container">
+						<p class="measurements__type">
+							Длина изделия
+						</p>
+						<input type="text" class="measurements__input" required>
+						<span>см</span>
+						<p class="measurements__type">
+							длина рукава
+						</p>
+						<input type="text" class="measurements__input" required>
+						<span>см</span>
+					</div>
+				</li>
+			</ul>
+			<form class="measurements__form">
+				<div class="measurements__row">
+					<p class="measurements__question">
+						Как к вам обращаться?
+					</p>
+					<input type="text" class="measurements__input-name measurements__input-contact-data" placeholder="Ваше имя*" required>
+				</div>
+				<div class="measurements__row">
+					<p class="measurements__question">
+						ДЛЯ ДАЛЬНЕЙШЕГО ОБЩЕНИЯ НАШЕГО СПЕЦИАЛИСТА С ВАМИ УКАЖИТЕ СВОИ КОНТАКТЫ
+					</p>
+					<input  minlength="11" maxlength="11" type="text" class="measurements__input-tel-num measurements__input-contact-data" placeholder="+7(___) ___-__ -__*" required>
+				</div>
+				<div class="measurements__row">
+					<p class="measurements__question">
+						ВЫ МОЖЕТЕ УКАЗАТЬ ЖЕЛАЕМЫЙ РАЗМЕР, 
+						ЦВЕТ, ВИД МЕХА ИЛИ ЗАДАТЬ НАМ ЛЮБОЙ 
+						ИНТЕРЕСУЮЩИЙ ВАС ВОПРОС
+					</p>
+					<textarea name="measurements__comment" placeholder="Ваш комментарий" cols="30" rows="10"></textarea>
+				</div>
+				<div class="measurements__row">
+					<p class="measurements__question">
+						ПО ЖЕЛАНИЮ, ВЫ МОЖЕТЕ ПРИКРЕПИТЬ 
+						СВОЕ ФОТО ИЛИ КАРТИНКУ С ФАСОНОМ 
+						ИЗДЕЛИЯ
+					</p>
+					<div class="measurements__dropbox">
+						Прикрепить фото
+					</div>
+				</div>
+					<div class="measurements__agreement">
+						<span class="measurements__agreement-input-mask measurements__agreement-input-mask--active"></span>
+						<input class="measurements__agreement-checkbox" type="checkbox">
+						<span>Согласие с политикой персональных данных</span>
+					</div>
+					<input type="submit" value="ЗАКАЗАТЬ ПОШИВ" class="measurements-send-btn">
+					<span class="measurements__success">
+						Данные отправлены
+					</span>
+					<span class="measurements__error">
+						Заполните все поля
+					</span>
+			</form>
+		</section>
+		<section class="showroom-service">	
+			<div class="showroom-service__col showroom">
+				<div class="showroom__content">
+					<p class="showroom__visit-our">
+						Поситите наш
+					</p>
+					<p class="showroom__heading">
+						Демонстрационный зал
+					</p>
+					<p class="showroom__text">
+						Для гостей городов Кавказких Минеральных Вод мы организуем БЕСПЛАТНЫЙ ТРАНСФЕР
+					</p>
+					<a href="#" class="shoowroom__btn btn-border">
+						Подробнее
+					</a>
+				</div>
+				<picture>
+					<img  class="showroom__img" src="img/showroom.jpg" srcset="img/showroom@2x.jpg 2x" alt="">
+				</picture>
+			</div>
+			<div class="showroom-service__col">
+				<div class="service__content">
+					<img src="img/heart.png" alt="" class="service__icon" width="33" height="33">
+					<p class="service__heading">
+						Клиентский сервис	
+					</p>
+					<p class="service__text">
+						ГАРАНТИЯ ОБСЛУЖИВАНИЯ  товара  1 год! 
+						Обязательная примерка перед покупкой и подгон шубы под размер,
+						если она не подошла вам.
+					</p>
+				</div>
+			</div>
+		</section>
+	</main>
+		<footer class="footer">
+		<div class="footer__top wrapper">
+			<a href="index.html" class="footer__logo logo">
+				<img src="img/logo.svg" alt="">
+				<span>
+					меховая фабрика
+				</span>
+			</a>
+			<ul class="footer__top-footer-nav footer-nav">
+				<li class="footer-nav__item">
+					<a href="" class="footer-nav__link">
+						О фабрике
+					</a>
+				</li>
+				<li class="footer-nav__item">
+					<a href="" class="footer-nav__link">
+						Статьи
+					</a>
+				</li>
+				<li class="footer-nav__item">
+					<a href="" class="footer-nav__link">
+						Вопрос-ответ
+					</a>
+				</li>
+				<li class="footer-nav__item">
+					<a href="" class="footer-nav__link">
+						Вопрос-ответ
+					</a>
+				</li>
+				<li class="footer-nav__item">
+					<a href="" class="footer-nav__link">
+						Вопрос-ответ
+					</a>
+				</li>
+				<li class="footer-nav__item">
+					<a href="" class="footer-nav__link">
+					Пошив на заказ
+				</a>
+				</li>
+				<li class="footer-nav__item">
+					<a href="" class="footer-nav__link">
+						Скидки
+					</a>
+				</li>		
+			</ul>
+		</div>
+		<div class="footer__bottom wrapper">
+			<div class="footer__contacts contacts">
+				<a href="tel:79283471718" class="contacts__tel-number">
+					+7 928 347-17-18
+				</a>
+				<a href="79624425595" class="contacts__tel-number">
+					+7 962 442-55-95
+				</a>
+				<a href="78793396539" class="contacts__tel-number">
+					+7 8793 39-65-39
+				</a>
+				<p class="contacts__address">
+					г. Пятигорск, 
+					ул. Краснослободская 
+					д. 13
+				</p>	
+			</div>
+			<div class="footer__full-list-goods full-list-goods">
+				<div class="full-list-goods__item">
+					<p class="full-list-goods__item-name">
+						Шубы
+					</p>
+					<ul class="full-list-goods__sublist">
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из норки
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Цветные шубы
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из мутона
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из чернобурки
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из астрагана
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из соболя
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из песца
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из нутрии
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из каракуля
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы комбинированные
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="full-list-goods__item">
+					<p class="full-list-goods__item-name">
+						Дубленки
+					</p>
+					<ul class="full-list-goods__sublist">
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из норки
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Цветные шубы
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из мутона
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из чернобурки
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из астрагана
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из соболя
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из песца
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из нутрии
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="full-list-goods__item">
+					<p class="full-list-goods__item-name">
+						Меховые жилеты
+					</p>
+					<ul class="full-list-goods__sublist">
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из норки
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Цветные шубы
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из мутона
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из чернобурки
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из астрагана
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="full-list-goods__item">
+					<p class="full-list-goods__item-name">
+						Изделия из кожи
+					</p>
+					<ul class="full-list-goods__sublist">
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из норки
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Цветные шубы
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из мутона
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из чернобурки
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из астрагана
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из соболя
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из песца
+							</a>
+						</li>
+						<li class="full-list-goods__sublist-item">
+							<a href="#">
+								Шубы из нутрии
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer__map">
+			<div class="wrapper">
+				<a href="#" class="footer__top__map__path">
+					Карта проезда
+				</a>
+			</div>
+		</div>
+		<div class="footer__additional-inform additional-inform wrapper">
+			<p class="additional-inform__copyright">
+				© Меховая фабрика «Эдита», 2018
+			</p>
+			<a href="#"" class="additional-inform__user-agreement">
+				Пользовательское соглашение   |   Политика конфиденциальности
+			</a>
+			<a href="#" class="additional-inform__developer">
+				Сделано WEBELEMENT
+			</a>
+		</div>
+	</footer>
+	<div class="side-bar">
+		<ul class="side-bar__list">
+			<li class="side-bar__item">
+				<img src="img/delivery.svg" alt="">
+				<a href="#" class="">Условия доставки</a>
+			</li>
+			<li class="side-bar__item">
+				<img src="img/pay.svg" alt="">
+				<a href="#">
+					Условия оплаты
+				</a>
+			</li>
+
+			<li class="side-bar__item">
+				<img src="img/review.svg" alt="">
+				<a href="#">
+					Отзывы клиентов
+				</a>
+			</li>
+			<li class="side-bar__item">
+				<img src="img/faq.svg" alt="">
+				<a href="#" class="">
+					Вопрос ответ
+				</a>
+			</li>
+			<li class="side-bar__item">
+				<img src="img/email.svg" alt="">
+				<a href="#">
+					Контакты
+				</a>
+			</li>
+		</ul>
+	</div>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/page-order.js"></script>
+	<script src="js/side-bar.js"></script>
+</body>
+</html>

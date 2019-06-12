@@ -1,0 +1,9 @@
+.btn-gray{
+	background-image: linear-gradient(to top, #dcdcdc 0%, #f2f2f2 46.5%, #f2f2f2 50%, #f2f2f2 53.5%, #dcdcdc 100%);
+	background-color: #ebebeb;
+	max-width: 207px;
+	@include mobile{
+		width: 48%;
+		max-width: 100%;
+	}
+}

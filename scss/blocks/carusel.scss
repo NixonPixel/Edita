@@ -1,0 +1,136 @@
+.carusel{
+	position: relative;
+	justify-content: space-between;
+	display: flex;
+	margin-right: -30px;
+	.slick-arrow{
+		width: 50px;
+		height: 300px;
+		background-color: #888888;
+		left: -50px;
+		&::before{
+			content: "";
+			background-color: #888888;
+			width: 8px;
+			height: 14px;
+			position: absolute;
+    		left: 23px;
+    		background-image: url(../../img/arrow-point-to-right.png);
+			background-position: center;
+		}
+	}
+	.slick-next, 
+	.slick-prev{
+		top: 310px;
+	}
+	.slick-prev{
+		&::before{
+			transform: rotate(-180deg);
+		}
+	}
+	.slick-next{
+		right: -20px;
+    	left: unset;
+    	&::before{
+    		top: 45.5%;
+    	}
+	}
+	.slick-slide{
+	width: 100%;
+	max-width: 370px;
+	margin-right: 30px;
+	cursor: pointer;
+	position: relative;
+	
+	&:hover .slide__content-more-info{
+		opacity: 1;
+	}
+	}
+	.slick-next:hover, 
+	.slick-prev:hover{
+		opacity: 1;
+		background-color: #405986;
+		&::before{
+			background-color: #405986;
+		}
+	}
+	.slide__content{
+		position: absolute;
+		background-color: #f9f8f9;
+		margin-right: 15px;
+		margin-left: 16px;
+		max-width: 337px;
+		bottom: 68px;
+		text-align: center;
+		padding-left: 41px;
+		padding-right: 41px;
+		padding-top: 27px;
+		padding-bottom: 15px;
+	}
+	.slide__content-item-name{
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 13px;
+		text-transform: uppercase;
+		letter-spacing: 2.4px;
+		margin-bottom: 26px;
+	}
+	.slide__content-desc{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 0.16px;
+		margin-bottom: 23px;
+	}
+	.slide__content-cost{
+		line-height: 20px;
+		font-weight: 700;
+		font-size: 24px;
+		color: #b98d0f;
+	}
+	.rouble{
+		font-family: Rouble;
+	}
+	.slide__content-more-info{
+	  	font-size: 14px;
+		font-weight: 300;
+		line-height: 25px;
+		text-transform: uppercase;
+		letter-spacing: 2.8px;
+		background: rgba(37,61,106,0.9);
+		max-width: 335px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		color: #fff;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		position: relative;
+		top: -17px;
+		opacity: 0;
+		transition-duration: 0.5s;
+	}
+
+	@include tablet{
+		.slick-next{
+			right: 30px;
+		}
+		.slick-arrow{
+			top: 45%;
+			opacity: 0.4;
+		}
+		.slick-prev{
+			left: 0;
+			z-index: 100;
+		}
+	}
+	@include mobile{
+		margin-right: 0;
+		.slick-next{
+			right: 0;
+		}
+		.slick-slide{
+			margin-right: 0;
+		}
+	}
+}
